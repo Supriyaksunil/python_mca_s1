@@ -1,0 +1,6 @@
+l1=input("Enter colors for list1:")
+l2=input("Enter colors for list2:")
+list1=l1.split(',')
+list2=l2.split(',')
+result=set(list1)-set(list2)
+print(result)
